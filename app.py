@@ -128,7 +128,7 @@ with col1:
     # D. Batas Kalteng
     empty_image = ee.Image().byte()
     outline = empty_image.paint(featureCollection=roi, color=1, width=2)
-    map_dash.add_ee_layer(outline, {'palette': ['black']}, 'Batas Administrasi Kalteng', show=True)
+    map_dash.add_ee_layer(outline, {'palette': ['black']}, 'Batas Administrasi Belitung', show=True)
 
     map_dash.add_child(folium.LayerControl())
 
