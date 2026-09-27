@@ -199,7 +199,7 @@ with col1:
         """)
 with col2:
     st.subheader("📊 Statistik Area Terdampak")
-    st.info("Visualisasi Zonal Statistics berdasarkan paparan populasi di atas ambang batas PM2.5 > 40 µg/m³.")
+    st.info("Visualisasi Zonal Statistics berdasarkan paparan populasi di atas ambang batas PM2.5 > 15 µg/m³.")
 
     try:
         # Nama file sesuaikan dengan yang kamu export di Zonal Statistics (Cell 10)
